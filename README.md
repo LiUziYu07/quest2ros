@@ -8,7 +8,7 @@ Ros 2 code to connect the occulus quest to ROS and receive the controler Positio
 
 2. Clone [ROS TCP enpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) into your workspace src
 
-`git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git`
+`git clone -b ROS2v0.7.0 https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git`
 
 3. Clone quest2ros ROS package in your workspace src
 
@@ -30,7 +30,7 @@ Ros 2 code to connect the occulus quest to ROS and receive the controler Positio
 
 9. Run ros2quest demo
 
-`rosrun quest2ros ros2quest.py`
+`ros2 run quest2ros ros2quest.py`
 
 10. You can now move the dice and Q2R logo in the VR by pressing the lower controller button of left and right controller respectivly
 
