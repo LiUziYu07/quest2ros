@@ -22,7 +22,7 @@ Ros 2 code to connect the occulus quest to ROS and receive the controler Positio
 
 6. Start ROS TCP endpoint (replace <YOUR_IP>)
 
-`ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=<your IP address> tcp_port:=10000`
+`ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=172.168.0.181 -p tcp_port:=10000`
 
 7. Set <YOUR_IP> and the same port in the VR and press **apply**
 
