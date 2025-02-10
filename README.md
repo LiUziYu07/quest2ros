@@ -12,7 +12,7 @@ Ros 2 code to connect the occulus quest to ROS and receive the controler Positio
 
 3. Clone quest2ros ROS package in your workspace src
 
-`git clone https://github.com/Quest2ROS/quest2ros.git`
+`git clone git@github.com:LiUziYu07/quest2ros.git`
 
 4. Build your workspace
 
